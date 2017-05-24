@@ -28,9 +28,9 @@ class ViewController: UIViewController {
     startLabel.text = String(start)
     goalLabel.text = String(goal)
 
+
     if goal == start {
       imageView.isHidden = false
     }
   }
 }
-
